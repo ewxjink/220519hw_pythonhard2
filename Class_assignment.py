@@ -20,7 +20,7 @@ class Student:
             print("멋사 1년차")
             print(" 우와 아기사자다 !")
         else :
-            print("멋사 2년차")
+            print("멋사 %s년차" %self.year)
             print("우와 운영진이다 !")
 
 
