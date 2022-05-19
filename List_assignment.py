@@ -4,6 +4,8 @@ for x in range(0,15):
     x = int(input("정수를 입력하세요 : "))
     List.append(x)
 
+print(List)
+
 
 # 전역변수 지역변수(for 문에서만 사용가능)
 
