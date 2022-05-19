@@ -16,7 +16,7 @@ class Student:
         print("성별은 %s 이다." % self.sex)
         print("주소는 %s 이다" % self.address)
         print("전화번호는 %s 이다." % self.phone_number )
-        if year == "1":  #if 를 이용해 "1"이 입력된다면 밑의 print문이 출력되는 조건문
+        if self.year == "1":  #if 를 이용해 "1"이 입력된다면 밑의 print문이 출력되는 조건문
             print("멋사 1년차")
             print(" 우와 아기사자다 !")
         else :
